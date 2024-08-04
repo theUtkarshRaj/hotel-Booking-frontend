@@ -1,6 +1,3 @@
-I apologize for the confusion. Let me format it properly for a README file that you can copy and paste directly into GitHub.
-
----
 
 # Hotel-Booking-Website-Project
 Interactive website made with the help of #MERN stack.
@@ -112,4 +109,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-You can copy and paste this formatted text directly into the README edit section on GitHub.
