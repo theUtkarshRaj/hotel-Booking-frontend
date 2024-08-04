@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+Hotel Booking System
+Overview
+This project is a comprehensive hotel booking system with a frontend and backend implementation. The frontend provides an interactive user interface for users to search, book, and manage hotel reservations. The backend manages data storage, business logic, and serves API endpoints for the frontend to consume.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Repositories
+Frontend: hotel-Booking-frontend
+Backend: Hotel-Booking-Backend
+Features
+User registration and authentication
+Hotel search and filtering
+Room booking and management
+Payment processing
+Booking history and user profiles
+Admin panel for hotel management
+Tech Stack
+Frontend
+React.js
+Redux
+Material-UI
+Axios
+Backend
+Node.js
+Express.js
+MongoDB
+Mongoose
+JWT for authentication
+Stripe for payment processing
+Installation
+Frontend
+Clone the frontend repository:
+bash
+Copy code
+git clone https://github.com/theUtkarshRaj/hotel-Booking-frontend.git
+Navigate to the project directory:
+bash
+Copy code
+cd hotel-Booking-frontend
+Install the dependencies:
+bash
+Copy code
+npm install
+Start the development server:
+bash
+Copy code
+npm start
+Open your browser and navigate to http://localhost:3000 to see the frontend in action.
+Backend
+Clone the backend repository:
+bash
+Copy code
+git clone https://github.com/theUtkarshRaj/Hotel-Booking-Backend.git
+Navigate to the project directory:
+bash
+Copy code
+cd Hotel-Booking-Backend
+Install the dependencies:
+bash
+Copy code
+npm install
+Set up environment variables:
+Create a .env file in the root directory and add the following variables:
+env
+Copy code
+PORT=5000
+MONGO_URI=<Your MongoDB URI>
+JWT_SECRET=<Your JWT Secret>
+STRIPE_SECRET_KEY=<Your Stripe Secret Key>
+Start the development server:
+bash
+Copy code
+npm run dev
+The backend server will be running at http://localhost:5000.
+Usage
+Register and log in to the system.
+Search for hotels based on location, date, and other filters.
+Select a hotel and book a room.
+Complete the payment process using Stripe.
+View and manage your bookings in your profile.
+Admins can log in to the admin panel to manage hotel listings, rooms, and bookings.
+Contributing
+Fork the repository.
+Create a new branch:
+bash
+Copy code
+git checkout -b feature-name
+Make your changes and commit them:
+bash
+Copy code
+git commit -m "Add some feature"
+Push to the branch:
+bash
+Copy code
+git push origin feature-name
+Open a pull request.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
