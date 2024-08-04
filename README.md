@@ -1,4 +1,6 @@
-Hotel Booking System
+Hotel-Booking-Website-Project
+Interactive website made with the help of #MERN stack.
+
 Overview
 This project is a comprehensive hotel booking system with a frontend and backend implementation. The frontend provides an interactive user interface for users to search, book, and manage hotel reservations. The backend manages data storage, business logic, and serves API endpoints for the frontend to consume.
 
