@@ -1,6 +1,7 @@
-Certainly! Here’s the entire README content written in Markdown:
+I apologize for the confusion. Let me format it properly for a README file that you can copy and paste directly into GitHub.
 
-```markdown
+---
+
 # Hotel-Booking-Website-Project
 Interactive website made with the help of #MERN stack.
 
@@ -20,7 +21,6 @@ This project is a comprehensive hotel booking system with a frontend and backend
 - Admin panel for hotel management
 
 ## Tech Stack
-
 ### Frontend
 - React.js
 - Redux
@@ -109,6 +109,7 @@ This project is a comprehensive hotel booking system with a frontend and backend
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
 
-You can copy and paste this Markdown text directly into the README section of your GitHub repository.
+---
+
+You can copy and paste this formatted text directly into the README edit section on GitHub.
